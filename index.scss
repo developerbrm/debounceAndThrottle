@@ -1,0 +1,19 @@
+$mainColor: #eee;
+$bgColor: #222;
+$primaryColor: rgb(79, 78, 172);
+$fontStyle: Open Sans;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $fontStyle;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  place-content: center;
+}
+
